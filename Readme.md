@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Яцина Андрей](https://up.htmlacademy.ru/htmlcss/36/user/2286597).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
