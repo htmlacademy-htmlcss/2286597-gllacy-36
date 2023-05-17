@@ -33,9 +33,12 @@ body {
   font-size: 18px;
   line-height: 24px;
   background-color: #FEAFC3;
-  padding-right: 98px;
-  padding-left: 98px;
   color: #2D3440;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
 }
 
 .visually-hidden {
@@ -67,12 +70,20 @@ body {
   list-style-type: none;
   align-items: center;
 }
-/*
+
 .navigation-select {
   width: 117px;
   height: 36px;
+  border: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D3440;
+  background-color: #FEAFC3;
 }
-*/
+
 .phone-number {
   text-decoration: none;
   color: #2D3440;
@@ -150,6 +161,7 @@ body {
 .info-slider p {
   margin-top: 24px;
   margin-bottom: 48px;
+  width: 430px;
 }
 
 .order {
@@ -226,4 +238,167 @@ body {
 .messengers-item {
   height: 24px;
   width: 24px;
+}
+
+.gift-container h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2D3440;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 55px;
+}
+
+.gift-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift-item {
+  display: flex;
+  background: #FF7799;
+  border-radius: 16px;
+}
+
+.info-gift {
+  padding: 36px 11px 36px 36px;
+}
+
+.info-gift h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+}
+
+
+.info-gift p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  width: 304px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2D3440;
+}
+
+.want-gift {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #2D3440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 176px;
+  height: 44px;
+  background: #FCFCFC;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.popular-taste h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2D3440;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 56px;
+}
+
+.taste-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.taste-item {
+  width: 270px;
+  display: grid;
+  background-color: #FCFCFC;
+  border-radius: 8px;
+}
+
+.ice-crem-pic {
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 16px;
+}
+
+.taste-item  h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2D3440;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.taste-item p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #565C66;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  }
+
+.price-busket {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 190px;
+  margin-bottom: 24px;
+}
+
+.price-busket span {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+  margin: auto 0;
+}
+
+.add-to-basket {
+  width: 32px;
+  height: 32px;
+  background: #FF2F64;
+  border-radius: 26px;
+  border: 0;
+  cursor: pointer;
 }
