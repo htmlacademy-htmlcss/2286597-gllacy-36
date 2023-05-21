@@ -75,7 +75,7 @@
           </div>
           <div class="catalog-container">
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group sortirovka">
                 <legend class="catalog-filter-title">
                   Сортировка:
                 </legend>
@@ -85,22 +85,24 @@
                   </option>
                 </select>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group price-tools">
                 <legend class="catalog-filter-title">Цена: 100 ₽ – 500 ₽</legend>
                 <div class="range">
-                  <div class="range-scale">
-                    <div class="range-bar" style="left: 0; width: 120px">
-                      <button class="range-toggle toggle-min">
-                        <span class="visually-hidden">Изменить минимальную цену.</span>
-                      </button>
-                      <button class="range-toggle toggle-max">
-                        <span class="visually-hidden">Изменить максимальную цену.</span>
-                      </button>
+                  <div class="shell">
+                    <div class="range-scale">
+                      <div class="range-bar" style="left: 32px; width: 72px">
+                        <button class="range-toggle toggle-min">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="range-toggle toggle-max">
+                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group fatness">
                 <legend class="catalog-filter-title">Жирность:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -133,7 +135,7 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group inside">
                 <legend class="catalog-filter-title">Наполнители:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">

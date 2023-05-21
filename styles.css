@@ -784,6 +784,76 @@ footer {
   margin-bottom: 40px;
 }
 
+.catalog-filter {
+  margin-bottom: 98px;
+}
+
+.catalog-filter-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+  margin-bottom: 8px;
+}
+
+.price-tools {
+  width: 196px;
+}
+
+.range {
+  box-sizing: border-box;
+  height: 36px;
+  background: #FCFCFC;
+  border-radius: 20px;
+  padding: 1px 16px 17px 16px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: #565C66;
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #2D3440;
+  opacity: 1;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #FCFCFC;
+  border: 6px solid #2D3440;
+  border-radius: 50%;
+  padding: 2px ;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -6px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -6px;
+  right: -10px;
+}
+
+/* Group */
+.catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .after-products {
   display: flex;
 }
