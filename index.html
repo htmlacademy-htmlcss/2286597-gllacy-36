@@ -5,18 +5,20 @@
     <title>HTML Academy: Глейси</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="pink">
     <div class="container">
       <header>
         <div class="header-container">
           <a class="logo-link" href="#">
-            <img class="logo" src="images-gllacy/Лого.png" width="137" height="56">
+            <img class="logo" src="images-gllacy/Лого.png" width="137" height="56" alt="Лого">
           </a>
           <ul class="navigation-list">
-            <li class="navigation-item">
+            <li class="navigation-item ct-nav">
               <a class="catalog-header" href="#">
                 Каталог
-                <svg class="catalog-narrow" xmlns="http://www.w3.org/2000/svg" width="12" height="7" fill="none" viewBox="0 0 12 7"><path fill="#2D3440" fill-rule="evenodd" d="M1.8 1.05A.67.67 0 0 0 .88 2l4.66 4.66a.66.66 0 0 0 .95 0L11.14 2a.67.67 0 0 0-.94-.95L6 5.25l-4.2-4.2Z" clip-rule="evenodd"/></svg>
+                <svg class="catalog-narrow" xmlns="http://www.w3.org/2000/svg" width="12" height="7" fill="none" viewBox="0 0 12 7">
+                  <path class="ct-header-icon" fill="#2D3440" fill-rule="evenodd" d="M1.8 1.05A.67.67 0 0 0 .88 2l4.66 4.66a.66.66 0 0 0 .95 0L11.14 2a.67.67 0 0 0-.94-.95L6 5.25l-4.2-4.2Z" clip-rule="evenodd"/>
+                </svg>
               </a>
               <div class="catalog-popover">
                 <ul class="catalog-list">
@@ -64,21 +66,28 @@
               </a>
             </li>
             <li class="user-item">
-              <a class="navigation-link search" href="#" >
-                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 14 14"><path fill="#2D3440" fill-rule="evenodd" d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z" clip-rule="evenodd"/></svg>
+              <a class="search" href="#" >
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 14 14">
+                  <path class="srch-color" fill="#2D3440" fill-rule="evenodd" d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z" clip-rule="evenodd"/>
+                </svg>
                 <span class="visually-hidden">
                   Поиск
                 </span>
               </a>
               <div class="popover-search">
                 <form class="popover-form-search" action="#" method="post">
-                  <input class="filed-seach" placeholder="Поиск по сайту" type="text">
+                  <label class="visually-hidden" for="filed-seach">
+                    Поиск по сайту
+                  </label>
+                    <input class="filed-seach" id="filed-seach" placeholder="Поиск по сайту" type="text">
                 </form>
               </div>
             </li>
             <li class="user-item">
               <a class="enter" href="#" >
-                <svg class="enter-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 17"><path fill="#2D3440" fill-rule="evenodd" d="M9 2.52c0-.36.3-.66.67-.66h2.66a2 2 0 0 1 2 2v9.33a2 2 0 0 1-2 2H9.67a.67.67 0 0 1 0-1.33h2.66a.67.67 0 0 0 .67-.67V3.86a.67.67 0 0 0-.67-.67H9.67A.67.67 0 0 1 9 2.52Zm-3.14 2.2a.67.67 0 0 1 .94 0l3.33 3.33a.69.69 0 0 1 .13.18.66.66 0 0 1-.13.77L6.8 12.33a.67.67 0 1 1-.94-.94l2.2-2.2h-6.4a.67.67 0 1 1 0-1.33h6.4l-2.2-2.2a.67.67 0 0 1 0-.94Z" clip-rule="evenodd"/></svg>
+                <svg class="enter-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 17">
+                  <path class="entr-color" fill="#2D3440" fill-rule="evenodd" d="M9 2.52c0-.36.3-.66.67-.66h2.66a2 2 0 0 1 2 2v9.33a2 2 0 0 1-2 2H9.67a.67.67 0 0 1 0-1.33h2.66a.67.67 0 0 0 .67-.67V3.86a.67.67 0 0 0-.67-.67H9.67A.67.67 0 0 1 9 2.52Zm-3.14 2.2a.67.67 0 0 1 .94 0l3.33 3.33a.69.69 0 0 1 .13.18.66.66 0 0 1-.13.77L6.8 12.33a.67.67 0 1 1-.94-.94l2.2-2.2h-6.4a.67.67 0 1 1 0-1.33h6.4l-2.2-2.2a.67.67 0 0 1 0-.94Z" clip-rule="evenodd"/>
+                </svg>
                 Вход
               </a>
               <div class="enter-popover enter-popover-cart">
@@ -87,8 +96,14 @@
                     Личный кабинет
                   </h2>
                   <form class="popover-form" action="#" method="post">
-                    <input class="filed" placeholder="email@example.com" type="email">
-                    <input class="filed" placeholder="" type="password">
+                    <label class="visually-hidden" for="email">
+                      email
+                    </label>
+                    <input class="filed" id="email" placeholder="email@example.com" type="email">
+                    <label class="visually-hidden" for="password">
+                      password
+                    </label>
+                    <input class="filed" placeholder="" id="password" type="password">
                     <div class="popover-bottom">
                       <button class="button" type="submit">
                         <span class="newsletter-span send">
@@ -116,7 +131,9 @@
             </li>
             <li class="user-item">
               <a class="basket" href="#" >
-                <svg class="basket-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 17"><path fill="#2D3440" fill-rule="evenodd" d="M1.17 2.1a.67.67 0 0 0 0 1.34h1.77l.47 2.34v.05l.97 4.83a1.83 1.83 0 0 0 1.82 1.47h5.62a1.83 1.83 0 0 0 1.82-1.47l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.36a.67.67 0 0 0-.66-.53H1.17Zm4.52 8.3-.81-4.06h8.23l-.78 4.07a.5.5 0 0 1-.49.39H6.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" clip-rule="evenodd"/></svg>
+                <svg class="basket-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 17">
+                  <path class="baskt-color" fill="#2D3440" fill-rule="evenodd" d="M1.17 2.1a.67.67 0 0 0 0 1.34h1.77l.47 2.34v.05l.97 4.83a1.83 1.83 0 0 0 1.82 1.47h5.62a1.83 1.83 0 0 0 1.82-1.47l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.36a.67.67 0 0 0-.66-.53H1.17Zm4.52 8.3-.81-4.06h8.23l-.78 4.07a.5.5 0 0 1-.49.39H6.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" clip-rule="evenodd"/>
+                </svg>
                 2 товара
               </a>
               <div class="basket-popover basket-popover-cart">
@@ -126,7 +143,7 @@
                   </h2>
                   <ul class="popover-list">
                     <li class="popover-item">
-                      <img src="images-gllacy/strobarry.png" class="popover-img" width="46" height="46">
+                      <img src="images-gllacy/strobarry.png" class="popover-img" width="46" height="46" alt="морожеоне малина">
                       <div class="popover-description">
                         <h3 class="pop-item-title">
                           Малинка
@@ -139,14 +156,14 @@
                         310 ₽
                       </b>
                       <button class="cancel">
-                        <h4 class="visually-hidden">
+                        <span class="visually-hidden">
                           Отменить
-                        </h4>
+                        </span>
                         <svg class="cencel-icon-first" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10"><path fill="#2D3440" fill-rule="evenodd" d="M9.8 1.14A.67.67 0 1 0 8.86.2L5 4.06 1.14.2a.67.67 0 1 0-.94.94L4.06 5 .2 8.86a.67.67 0 0 0 .94.94L5 5.94 8.86 9.8a.67.67 0 1 0 .94-.94L5.94 5 9.8 1.14Z" clip-rule="evenodd"/></svg>
                       </button>
                     </li>
                     <li class="popover-item">
-                      <img src="images-gllacy/buble-gum.png" class="popover-img" width="46" height="46">
+                      <img src="images-gllacy/buble-gum.png" class="popover-img" width="46" height="46" alt="морожеоне баблгам">
                       <div class="popover-description">
                         <h3 class="pop-item-title">
                           Бабл-гам
@@ -159,9 +176,9 @@
                         480 ₽
                       </b>
                       <button class="cancel">
-                        <h4 class="visually-hidden">
+                        <span class="visually-hidden">
                           Отменить
-                        </h4>
+                        </span>
                         <svg class="cencel-icon" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10"><path fill="#2D3440" fill-rule="evenodd" d="M9.8 1.14A.67.67 0 1 0 8.86.2L5 4.06 1.14.2a.67.67 0 1 0-.94.94L4.06 5 .2 8.86a.67.67 0 0 0 .94.94L5 5.94 8.86 9.8a.67.67 0 1 0 .94-.94L5.94 5 9.8 1.14Z" clip-rule="evenodd"/></svg>
                       </button>
                     </li>
@@ -180,6 +197,7 @@
               </div>
             </li>
           </ul>
+        </div>
       </header>
       <main>
         <div class="main-container">
@@ -266,6 +284,9 @@
             </ul>
             <div class="slider-buttons">
               <section class="narrows">
+                <h6 class="visually-hidden">
+                  Стрелки на слайдера
+                </h6>
                 <button class="slider-button slider-next" type="button">
                   <svg class="narrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 17 16"><path class="clr-icon-slider" fill="#FCFCFC" fill-rule="evenodd" d="M9.71 13.14a.67.67 0 0 0 .94-.95L6.45 8l4.2-4.2a.66.66 0 0 0-.94-.94L5.04 7.52a.66.66 0 0 0 0 .94l4.67 4.68Z" clip-rule="evenodd"/></svg>
                   <span class="visually-hidden">Предыдущее фото</span>
@@ -336,10 +357,10 @@
                     При покупке 2 кг любого фруктового<br> мороженого добавим в ваш заказ<br> банку малинового варенья бесплатно.
                   </p>
                   <button class="want-gift" type="submit">
-                    Хочу подарок!
+                    Хочу подарок
                   </button>
                 </div>
-                <img class="gift-pic" src="images-gllacy/berry-gift.png" width="219" height="268">
+                <img class="gift-pic" src="images-gllacy/berry-gift.png" width="219" height="268"  alt="малина">
               </li>
               <li class="gift-item">
                 <div class="info-gift">
@@ -350,10 +371,10 @@
                     При покупке 2 кг пломбира добавим<br> в ваш заказ упаковку нежных зефирок<br> совершенно бесплатно.
                   </p>
                   <button class="want-gift" type="submit">
-                    Хочу подарок!
+                    Хочу подарок
                   </button>
                 </div>
-                <img class="gift-pic" src="images-gllacy/marshmello-gift.png" width="219" height="268">
+                <img class="gift-pic" src="images-gllacy/marshmello-gift.png" width="219" height="268" alt="мвршмеллоу">
               </li>
             </ul>
           </div>
@@ -363,7 +384,7 @@
             </h2>
             <ul class="taste-list">
               <li class="taste-item">
-                <img class="ice-crem-pic" src="images-gllacy/strobarry.png" alt="" width="168" height="168">
+                <img class="ice-crem-pic" src="images-gllacy/strobarry.png" width="168" height="168" alt="морожеоне бмалина">
                 <h4>
                   Малинка
                 </h4>
@@ -383,7 +404,7 @@
                 </div>
               </li>
               <li class="taste-item">
-                <img class="ice-crem-pic" src="images-gllacy/fistachio.png" alt="" width="168" height="168">
+                <img class="ice-crem-pic" src="images-gllacy/fistachio.png" width="168" height="168" alt="морожеоне фисташка">
                 <h4>
                   Фисташка
                 </h4>
@@ -403,7 +424,7 @@
                 </div>
               </li>
               <li class="taste-item">
-                <img class="ice-crem-pic" src="images-gllacy/chernika.png" alt="" width="168" height="168">
+                <img class="ice-crem-pic" src="images-gllacy/chernika.png" width="168" height="168" alt="морожеоне черника">
                 <h4>
                   Черника
                 </h4>
@@ -423,7 +444,7 @@
                 </div>
               </li>
               <li class="taste-item">
-                <img class="ice-crem-pic" src="images-gllacy/buble-gum.png" alt="" width="168" height="168">
+                <img class="ice-crem-pic" src="images-gllacy/buble-gum.png" width="168" height="168" alt="мороженное баблгам">
                 <h4>
                   Бабл-гам
                 </h4>
@@ -451,25 +472,25 @@
               </h2>
               <ul class="advantades-list">
                 <li class="advantages-item">
-                  <img class="advantages-pic" src="images-gllacy/adv-ice-cream.png" width="48" height="48">
+                  <img class="advantages-pic" src="images-gllacy/adv-ice-cream.png" width="48" height="48"  alt="иконка">
                   <p>
                     Всё наше мороженое изготавливается на собственном<br> производстве с использованием современного<br> оборудования и проверенных временем технологий.
                   </p>
                 </li>
                 <li class="advantages-item">
-                  <img class="advantages-pic" src="images-gllacy/moooo.png" width="48" height="48">
+                  <img class="advantages-pic" src="images-gllacy/moooo.png" width="48" height="48" alt="иконка">
                   <p>
                     Закупка ингредиентов производится только<br> у проверенных фермерских хозяйств, с которыми<br> нас связывает долговременное сотрудничество.
                   </p>
                 </li>
                 <li class="advantages-item">
-                  <img class="advantages-pic" src="images-gllacy/listik.png" width="48" height="48">
+                  <img class="advantages-pic" src="images-gllacy/listik.png" width="48" height="48" alt="иконка">
                   <p>
                     Для приготовления мороженого используются сливки<br> и молоко высочайшего качества. Все ингредиенты<br> и добавки произведены из натурального сырья.
                   </p>
                 </li>
                 <li class="advantages-item">
-                  <img class="advantages-pic" src="images-gllacy/gradusnik.png" width="48" height="48">
+                  <img class="advantages-pic" src="images-gllacy/gradusnik.png" width="48" height="48" alt="иконка">
                   <p>
                     Доставка нашего мороженого осуществляется в<br> специальном термопаке, который не даёт мороженому<br> растаять и позволяет сохранить превосходный вкус.
                   </p>
@@ -479,6 +500,9 @@
           </div>
           <div class="article-and-mailing-list">
             <article>
+              <h4 class="visually-hidden">
+                Блог
+              </h4>
               <p>
                 Новое в нашем блоге
               </p>
@@ -487,11 +511,17 @@
               </a>
             </article>
             <section class="mailing-list">
+              <h4 class="visually-hidden">
+                Рассылка
+              </h4>
               <p>
                 Подпишитесь на нашу сладкую рассылку и будьте всегда<br> в курсе всего самого вкусного, что у нас происходит. Обещаем<br> не спамить и не слать всякой ненужной ерунды. Честно =)
               </p>
               <form class="newsletter-form" action="#" method="post">
-                <input class="filed" placeholder="email@example.com" type="email">
+                <label class="visually-hidden" for="email-nws">
+                  Email
+                </label>
+                <input class="filed" id="email-nws" placeholder="email@example.com" type="email">
                 <button class="button" type="submit">
                   <span class="newsletter-span send">
                     Отправить
@@ -510,6 +540,9 @@
               </p>
             </div>
             <section class="appointment">
+              <h4 class="visually-hidden">
+                Форма для связи с компанией
+              </h4>
               <p>
                 Укажите адрес и дату доставки, и мы свяжемся<br> с вами, чтобы подтвердить заказ.
               </p>
@@ -542,6 +575,9 @@
           </div>
           <div class="feedback">
             <section class="feedback-window">
+              <h4 class="visually-hidden">
+               Адрес
+              </h4>
               <p>
                 Адрес главного офиса<br> и офлайн-магазина:
               </p>
@@ -566,6 +602,9 @@
       </main>
       <footer>
         <section class="messengers">
+          <h4 class="visually-hidden">
+            Мессенджеры
+          </h4>
           <ul class="messengers-list">
             <li class="messengers-item">
               <a class="messengers-link" href="#">
@@ -622,8 +661,11 @@
           </ul>
         </section>
         <section class="html-academy">
+          <h4 class="visually-hidden">
+            html academy
+          </h4>
           <a class="html-academy-link" href="https//:htmlacademy.ru/">
-            <img class="html-academy-pic" src="images-gllacy/logo_htmlacademy.png" width="93" height="27">
+            <img class="html-academy-pic" src="images-gllacy/logo_htmlacademy.png" width="93" height="27" alt="logo">
           </a>
           <p>
             Сделано в <a class="html-academy-link-p" href="https//:htmlacademy.ru/">.html academy</a> © 2021
@@ -640,9 +682,15 @@
             Мы обязательно ответим вам!
           </h2>
           <form class="modal-form">
-            <input class="filed" placeholder="Имя и фамилия" type="text">
-            <input class="filed" placeholder="email@example.com" type="email">
-            <input class="filed-big" placeholder="В свободной форме" type="text">
+            <label class="visually-hidden" for="fio">
+              Имя и фамилия
+            </label>
+            <input class="filed" id="fio" placeholder="Имя и фамилия" type="text">
+            <label class="visually-hidden" for="email-modal" >
+              email
+            </label>
+            <input class="filed" id="email-modal" placeholder="email@example.com" type="email">
+            <textarea class="filed-big" placeholder="В свободной форме"></textarea>
             <div>
               <button class="button" type="submit">
                 <span class="newsletter-span send">
