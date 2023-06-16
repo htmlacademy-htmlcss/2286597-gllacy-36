@@ -1,7 +1,8 @@
 @font-face {
   font-Family: "Inter";
   font-weight: 400;
-  src: url("../2286597-gllacy-36/fonts/inter-400.woff2") format("woff2");
+  font-style: normal;
+  src: url("fonts/inter-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -9,7 +10,7 @@
   font-Family: "Inter";
   font-weight: 700;
   font-style: normal;
-  src: url("../2286597-gllacy-36/fonts/inter-700.woff2") format("woff2");
+  src: url("fonts/inter-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -17,7 +18,7 @@
   font-Family: "Inter";
   font-weight: 900;
   font-style: normal;
-  src: url("../2286597-gllacy-36/fonts/inter-900.woff2") format("woff2");
+  src: url("fonts/inter-900.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -27,7 +28,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -186,7 +187,7 @@ body {
 
 .catalog-list-item {
   margin-bottom: 12px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -196,7 +197,7 @@ body {
 }
 
 .catalog-list-item:first-child {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -229,7 +230,7 @@ body {
   color: #2D3440;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   height: 20px;
@@ -291,7 +292,7 @@ body {
   outline: 0;
 }
 
-.user-item:focus-within .srch-color {
+.user-item:focus-within .sreach-color {
   fill: #FCFCFC;
 }
 
@@ -318,14 +319,14 @@ body {
   margin-top: 0;
 }
 
-.filed-seach {
+.filed-search {
   background: #FFFFFF;
   border: 1px solid #B9B9B9;
   border-radius: 4px;
   width: 324px;
   height: 48px;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -339,7 +340,7 @@ body {
   border-radius: 30px;
   text-decoration: none;
   display: block;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -381,7 +382,7 @@ body {
   color: #FCFCFC;
 }
 
-.user-item:focus-within .entr-color {
+.user-item:focus-within .enter-color {
   fill: #FCFCFC;
 }
 
@@ -393,7 +394,7 @@ body {
   width: 420px;
   background-color: #FCFCFC;
   padding: 48px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   min-height: 156px;
   box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
@@ -442,7 +443,7 @@ body {
 .basket {
   background: rgba(252, 252, 252, 0.3);
   border-radius: 30px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -484,7 +485,7 @@ body {
   color: #FCFCFC;
 }
 
-.user-item:focus-within .baskt-color {
+.user-item:focus-within .basket-color {
   fill: #FCFCFC;
 }
 
@@ -495,7 +496,7 @@ body {
 .basket-popover {
   width: 440px;
   padding: 48px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   min-height: 156px;
   background: #FCFCFC;
@@ -646,7 +647,7 @@ body {
 .info-slider h1 {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
@@ -661,12 +662,11 @@ body {
 }
 
 .order {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  display: block;
   text-align: center;
   color: #2D3440;
   background: #FCFCFC;
@@ -676,6 +676,7 @@ body {
   border-radius: 26px;
   padding: 12px 32px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .order:focus {
@@ -940,7 +941,7 @@ body {
 }
 
 .gift-container h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -977,7 +978,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 28px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -991,7 +992,7 @@ body {
   padding: 0;
   margin-bottom: 28px;
   width: 304px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1000,14 +1001,14 @@ body {
 }
 
 .want-gift {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+  display: inline-block;
   color: #2D3440;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 12px 32px;
@@ -1017,6 +1018,7 @@ body {
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .want-gift:focus {
@@ -1044,8 +1046,8 @@ body {
   color: #B9B9B9;
 }
 
-.popular-taste h2 {
-  font-family: 'Inter';
+.popular-taste h1 {
+  font-family: "Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -1081,8 +1083,8 @@ body {
   margin-bottom: 16px;
 }
 
-.taste-item  h4 {
-  font-family: 'Inter';
+.taste-item  h2 {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1095,7 +1097,7 @@ body {
 }
 
 .taste-item p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1117,7 +1119,7 @@ body {
 
 .price-busket span {
   display: flex;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1177,6 +1179,7 @@ body {
   padding: 24px;
   border-radius: 16px;
   margin-bottom: 80px;
+  margin-top: 80px;
   background-image: url("images-gllacy/wafle.png");
   background-repeat: repeat;
 }
@@ -1186,8 +1189,8 @@ body {
   border-radius: 16px;
 }
 
-.advantages h2 {
-  font-family: 'Inter';
+.advantages h3 {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -1219,12 +1222,13 @@ body {
   display: flex;
   align-self: center;
   margin-right: 16px;
+  margin-bottom: 12px;
 }
 
 .advantages-item p {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1241,17 +1245,18 @@ body {
 .article {
   box-sizing: border-box;
   width: 570px;
-  height: 224px;
   background-image: ;
-  background-image: url("images-gllacy/article-ice-cream.png");
+  background-image: url("images-gllacy/article-ice-cream.jpg");
+  background-size: cover;
   border-radius: 16px;
-  padding: 32px;
+  padding: 32px 32px 70px 32px;
+  background-color: #FCFCFC;
 }
 
 .article p {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1261,7 +1266,7 @@ body {
 }
 
 .blog-link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1271,9 +1276,10 @@ body {
 }
 
 .mail-border {
-  background-image: url("images-gllacy/news-letter.png");
+  background-image: url("images-gllacy/news-letter.jpg");
+  background-size: cover;
   width: 570px;
-  height: 224px;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1291,7 +1297,7 @@ body {
 .mailing-list p {
   margin : 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1312,7 +1318,7 @@ body {
   width: 332px;
   height: 48px;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1332,7 +1338,7 @@ body {
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1374,7 +1380,9 @@ body {
 .delivery {
   display: flex;
   border-radius: 16px;
-  background-image: url("images-gllacy/delivery.png");
+  background-image: url("images-gllacy/delivery.jpg");
+  background-color: #FCFCFC;
+  background-size: cover;
   margin-bottom: 80px;
 }
 
@@ -1384,7 +1392,7 @@ body {
 }
 
 .info-delivery h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -1398,7 +1406,7 @@ body {
 .info-delivery p {
   margin:  0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1416,7 +1424,7 @@ body {
 }
 
 .appointment p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1449,7 +1457,7 @@ body {
 }
 
 .form-label {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1474,7 +1482,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #B9B9B9;
   border-radius: 4px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1504,7 +1512,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #B9B9B9;
   border-radius: 4px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1530,16 +1538,19 @@ body {
 }
 
 .appointment .button {
-  display: block;
+  display: flex;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 12px;
+  text-align: center;
+  margin-left: 134px;
 }
 
 .feedback {
-  background-image: url("images-gllacy/contact.png");
+  background-image: url("images-gllacy/contact.jpg");
+  background-color: #FCFCFC;
   border-radius: 16px;
+  background-size: cover;
   padding: 64px 763px 64px 64px;
-  height: 492px;
   box-sizing: border-box;
 }
 
@@ -1551,7 +1562,7 @@ body {
 }
 
 .feedback-window p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1562,8 +1573,12 @@ body {
   margin-bottom: 12px;
 }
 
+.feedback-window p:last-of-type {
+  margin-bottom: 42px;
+}
+
 .feedback-window .address {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1573,7 +1588,7 @@ body {
 }
 
 .feedback-window b {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1581,17 +1596,34 @@ body {
   color: #2D3440;
 }
 
-.feedback-window .button {
-  margin-top: 32px;
+.feedback-link {
+  background: #FF2F64;
+  outline: 4px solid #FF7799;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FCFCFC;
+  cursor: pointer;
+  padding: 10px 32px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .timetable {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #565C66;
+
 }
 
 .footer {
@@ -1616,7 +1648,7 @@ body {
 }
 
 .about-us-item {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1632,7 +1664,7 @@ body {
 
 .for-other {
   margin-right: 24px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1641,7 +1673,7 @@ body {
 }
 
 .about-us-link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1660,7 +1692,7 @@ body {
 }
 
 .html-academy P {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1687,7 +1719,7 @@ body {
 }
 
 .breadcrumbs-link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1714,10 +1746,10 @@ body {
   margin-right: 0;
 }
 
-.bread h2 {
+.bread h1 {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -1731,7 +1763,7 @@ body {
 }
 
 .catalog-filter-title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1761,12 +1793,12 @@ body {
   margin-top: 16px;
 }
 
-.link-control {
+.catalog-controll {
   background: #FFCBD8;
   border-radius: 20px;
   border: 0;
-  padding: 8px 62px 8px 16px;
-  font-family: 'Inter';
+  padding: 8px 36px 8px 16px;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1775,12 +1807,18 @@ body {
   text-decoration: none;
   display: block;
   position: relative;
+  box-sizing: border-box;
 }
 
-.ct-narrow-ion {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+.catalog-controll:focus {
+  outline: 2px solid #FCFCFC;
+  border: 0;
+  border-radius: 26px;
+}
+
+.catalog-controll:hover {
+  background: #FCFCFC;
+  opacity: 0.5;
 }
 
 .price-tools {
@@ -1827,10 +1865,45 @@ body {
   left: -10px;
 }
 
+.toggle-min:focus {
+  background: #2D3440;
+  border: 6px solid #FCFCFC;
+  outline: 2px solid #2D3440;
+}
+
+.toggle-min:hover {
+  background: #2D3440;
+  border: 6px solid #FCFCFC;
+}
+
+.toggle-min:active {
+  background: #2D3440;
+  border: 6px solid #2D3440;
+  outline: 0;
+}
+
 .toggle-max {
   top: -7px;
   right: -10px;
 }
+
+.toggle-max:focus {
+  background: #2D3440;
+  border: 6px solid #FCFCFC;
+  outline: 2px solid #2D3440;
+}
+
+.toggle-max:hover {
+  background: #2D3440;
+  border: 6px solid #FCFCFC;
+}
+
+.toggle-min:active {
+  background: #2D3440;
+  border: 6px solid #2D3440;
+  outline: 0;
+}
+
 
 .catalog-filter-list {
   list-style-type: none;
@@ -1883,22 +1956,16 @@ body {
   border-radius: 4px;
 }
 
-.swoosh {
-  opacity: 0;
-  position: absolute;
-  left: 4px;
-  top: 2px;
+.control-mark:hover {
+  border: 2px solid #FCFCFC;
 }
 
-.control-mark-checbox {
-  position: absolute;
-  box-sizing: border-box;
-  top: 2px;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  border: 2px solid #2D3440;
-  border-radius: 4px;
+.control-mark:disabled {
+  opacity: 0.4;
+}
+
+.control-mark:hover .control-mark::before {
+  background-color: #FCFCFC;
 }
 
 .control-mark-checbox-svg {
@@ -1908,6 +1975,22 @@ body {
   left: 0;
   width: 16px;
   height: 16px;
+}
+
+.control-mark-checbox-svg:hover .checked {
+  fill: #FCFCFC;
+}
+
+.control-mark-checbox-svg:default .checked {
+  opacity: 0.5;
+}
+
+.control-mark-checbox-svg:hover .unchecked {
+  fill: #FCFCFC;
+}
+
+.control-mark-checbox-svg:default .unchecked {
+  opacity: 0.5;
 }
 
 .control-mark-checbox-svg .checked {
@@ -1931,7 +2014,7 @@ body {
 }
 
 .control-label {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1946,7 +2029,7 @@ body {
   outline: 2px solid #FCFCFC;
   border: none;
   border-radius: 20px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -2014,7 +2097,7 @@ body {
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -2084,7 +2167,7 @@ body {
 
 .pagination-link {
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2192,7 +2275,7 @@ body {
   width: 442px;
   height: 150px;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
