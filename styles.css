@@ -28,25 +28,25 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  background-color: #FEAFC3;
-  color: #2D3440;
+  background-color: #feafc3;
+  color: #2d3440;
 }
 
 .pink {
-  background-color: #FEAFC3;
+  background-color: #feafc3;
 }
 
 .blue {
-  background-color: #69A9FF;
+  background-color: #69a9ff;
 }
 
 .yellow {
-  background-color: #FCC850;
+  background-color: #fcc850;
 }
 
 .container {
@@ -86,7 +86,7 @@ body {
 
 .navigation-link:focus {
   background: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 30px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .navigation-link:active {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 30px;
   border: 0;
   outline: 0;
@@ -119,7 +119,7 @@ body {
 .catalog-header {
   text-decoration: none;
   display: block;
-  color: #2D3440;
+  color: #2d3440;
   font-size: 16px;
   line-height: 20px;
   padding: 8px 16px 8px 16px;
@@ -129,7 +129,7 @@ body {
 
 .catalog-header:focus {
   background: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 30px;
 }
@@ -140,21 +140,21 @@ body {
 }
 
 .catalog-header:active {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 30px;
   border: 0;
   outline: 0;
 }
 
 .ct-nav:focus-within .catalog-header{
-  background: #FF4A78;
+  background: #ff4a78;
   border-radius: 30px;
-  color: #FCFCFC;
+  color: #fcfcfc;
   outline: 0;
 }
 
 .ct-nav:focus-within .ct-header-icon {
-  fill: #FCFCFC;
+  fill: #fcfcfc;
 }
 
 .ct-nav:focus-within .catalog-narrow {
@@ -169,7 +169,7 @@ body {
 .catalog-popover {
   width: 138px;
   padding: 16px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   box-shadow: 0px 8px 16px rgba(45, 52, 64, 0.12);
   border-radius: 4px;
   box-sizing: border-box;
@@ -187,22 +187,22 @@ body {
 
 .catalog-list-item {
   margin-bottom: 12px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   position: relative;
 }
 
 .catalog-list-item:first-child {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   margin-bottom: 24px;
 }
 
@@ -211,7 +211,7 @@ body {
   width: 105px;
   content: "";
   display: block;
-  background-color:  #B9B9B9;
+  background-color:  #b9b9b9;
   position: absolute;
   top: 32px;
 }
@@ -222,15 +222,15 @@ body {
 
 .catalog-link {
   text-decoration: none;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .phone-number {
   text-decoration: none;
-  color: #2D3440;
+  color: #2d3440;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   height: 20px;
@@ -246,7 +246,7 @@ body {
 .navigation-link {
   text-decoration: none;
   display: block;
-  color: #2D3440;
+  color: #2d3440;
   font-size: 16px;
   line-height: 20px;
   padding: 8px 16px 8px 16px;
@@ -275,7 +275,7 @@ body {
 }
 
 .search:active {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 30px;
   outline: 0;
 }
@@ -287,13 +287,13 @@ body {
 }
 
 .user-item:focus-within .search{
-  background: #FF4A78;
+  background: #ff4a78;
   border-radius: 30px;
   outline: 0;
 }
 
-.user-item:focus-within .sreach-color {
-  fill: #FCFCFC;
+.user-item:focus-within .search-color {
+  fill: #fcfcfc;
 }
 
 .user-item:focus-within .popover-search {
@@ -302,10 +302,10 @@ body {
 
 .popover-search {
   width: 356px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   padding: 24px 16px;
   position: absolute;
-  color: #2D3440;
+  color: #2d3440;
   box-sizing: border-box;
   z-index: 5;
   top: 40px;
@@ -320,18 +320,18 @@ body {
 }
 
 .filed-search {
-  background: #FFFFFF;
-  border: 1px solid #B9B9B9;
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
   border-radius: 4px;
   width: 324px;
   height: 48px;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #B9B9B9;
+  color: #b9b9b9;
   padding: 14px 16px 14px 16px;
 }
 
@@ -340,12 +340,12 @@ body {
   border-radius: 30px;
   text-decoration: none;
   display: block;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   padding: 6px 16px 6px 38px;
   height: 20px;
   position: relative;
@@ -364,7 +364,7 @@ body {
 }
 
 .enter:active {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 30px;
   outline: 0;
 }
@@ -376,14 +376,14 @@ body {
 }
 
 .user-item:focus-within .enter{
-  background: #FF4A78;
+  background: #ff4a78;
   border-radius: 30px;
   outline: 0;
-  color: #FCFCFC;
+  color: #fcfcfc;
 }
 
 .user-item:focus-within .enter-color {
-  fill: #FCFCFC;
+  fill: #fcfcfc;
 }
 
 .user-item:focus-within .enter-popover {
@@ -392,10 +392,11 @@ body {
 
 .enter-popover {
   width: 420px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   padding: 48px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
+  font-weight: 700;
   min-height: 156px;
   box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 4px;
@@ -404,7 +405,7 @@ body {
   z-index: 5;
   top: 40px;
   left: -332px;
-  color: #2D3440;
+  color: #2d3440;
   display: none;
 }
 
@@ -437,18 +438,18 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .basket {
   background: rgba(252, 252, 252, 0.3);
   border-radius: 30px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   position: relative;
   padding: 6px 16px 6px 38px;
   text-decoration: none;
@@ -467,7 +468,7 @@ body {
 }
 
 .basket:active {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 30px;
   outline: 0;
 }
@@ -479,14 +480,14 @@ body {
 }
 
 .user-item:focus-within .basket{
-  background: #FF4A78;
+  background: #ff4a78;
   border-radius: 30px;
   outline: 0;
-  color: #FCFCFC;
+  color: #fcfcfc;
 }
 
 .user-item:focus-within .basket-color {
-  fill: #FCFCFC;
+  fill: #fcfcfc;
 }
 
 .user-item:focus-within .basket-popover {
@@ -496,10 +497,11 @@ body {
 .basket-popover {
   width: 440px;
   padding: 48px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
+  font-weight: 700;
   min-height: 156px;
-  background: #FCFCFC;
+  background: #fcfcfc;
   box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 4px;
   box-sizing: border-box;
@@ -508,7 +510,7 @@ body {
   left: -325px;
   z-index: 5;
   display: none;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .popover-title {
@@ -557,7 +559,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #B9B9B9;
+  color: #b9b9b9;
 }
 
 .popover-item b {
@@ -572,14 +574,14 @@ body {
   width: 16px;
   height: 16px;
   align-self: center;
-  background-color: #FCFCFC;
+  background-color:#fcfcfc;
   border: 0;
   cursor: pointer;
   position: relative;
   padding: 0;
 }
 
-.cencel-icon-first {
+.cancel-icon-first {
   position: absolute;
   top: 0;
 }
@@ -595,7 +597,7 @@ body {
   width: 345px;
   content: "";
   display: block;
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
   position: absolute;
   top: 0;
 }
@@ -644,15 +646,15 @@ body {
   width: 528px;
 }
 
-.info-slider h1 {
+.info-slider h2 {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
-  margin-top: 136px;
+  margin-top: 132px;
 }
 
 .info-slider p {
@@ -662,15 +664,16 @@ body {
 }
 
 .order {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #2D3440;
-  background: #FCFCFC;
-  outline: 4px solid #FFCBD8;
+  color: #2d3440;
+  background: #fcfcfc;
+  outline: 4px solid #ffcbd8;
+  display: inline-block;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
@@ -681,27 +684,27 @@ body {
 
 .order:focus {
   background: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .order:hover {
   background: rgba(252, 252, 252, 0.4);
-  outline: 4px solid #FCFCFC;
+  outline: 4px solid #fcfcfc;
   border: none;
 }
 
 .order:active {
-  background: #FCFCFC;
-  outline: 2px solid #2D3440;
+  background: #fcfcfc;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .order:disabled {
-  background: #E7E7E7;
+  background: #e7e7e7;
   outline: 4px solid rgba(252, 252, 252, 0.4);
   border: none;
-  color: #B9B9B9;
+  color: #b9b9b9;
 }
 
 .slider-pictures {
@@ -709,7 +712,7 @@ body {
   align-items: center;
 }
 
-.clider-pic-list {
+.slider-pic-list {
   display: flex;
   margin: 0;
   padding: 0;
@@ -730,7 +733,7 @@ body {
   content: "";
   width: 312px;
   height: 312px;
-  background-color: #FFCBD8;
+  background-color: #ffcbd8;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
@@ -748,7 +751,7 @@ body {
   content: "";
   width: 100px;
   height: 100px;
-  background-color: #FFCBD8;
+  background-color: #ffcbd8;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
@@ -778,7 +781,7 @@ body {
   justify-content: space-between;
   width: 366px;
   position: absolute;
-  top: -258px;
+  top: -270px;
   left: 527px;
   z-index: 4;
 }
@@ -788,7 +791,7 @@ body {
   height: 38px;
   width: 38px;
   position: relative;
-  border: 2px solid #FCFCFC;
+  border: 2px solid#fcfcfc;
   border-radius: 26px;
   background: rgba(252, 252, 252, 0.3);
   cursor: pointer;
@@ -797,19 +800,19 @@ body {
 
 .slider-button:focus {
   background: rgba(252, 252, 252, 0.3);
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
 }
 
 .slider-button:focus .clr-icon-slider {
-  fill: #2D3440;
+  fill: #2d3440;
 }
 
 .slider-button:hover {
-  background-color: #FCFCFC;
+  background-color:#fcfcfc;
 }
 
 .slider-button:hover .clr-icon-slider {
-  fill: #2D3440;
+  fill: #2d3440;
 }
 
 .slider-button:active {
@@ -818,17 +821,17 @@ body {
 }
 
 .slider-button:active .clr-icon-slider {
-  fill: #2D3440;
+  fill: #2d3440;
 }
 
 .slider-button:disabled {
   background: rgba(252, 252, 252, 0.3);
-  border: 2px solid #FCFCFC;
+  border: 2px solid #fcfcfc;
   opacity: 0.4;
 }
 
 .slider-button:disabled .clr-icon-slider {
-  color: #FCFCFC;
+  color:#fcfcfc;
 }
 
 .narrow-icon {
@@ -870,20 +873,20 @@ body {
   height: 10px;
   margin: 0;
   padding: 0;
-  background: #FCFCFC;
-  border: 1px solid #FCFCFC;
+  background:#fcfcfc;
+  border: 1px solid#fcfcfc;
   border-radius: 100px;
   cursor: pointer;
   opacity: 0.3;
 }
 
 .slider-dot-button:focus {
-  border: 1px solid #2D3440;
+  border: 1px solid #2d3440;
   background: rgba(252, 252, 252, 0.3);
 }
 
 .slider-dot-button:hover {
-  border: 1px solid #FCFCFC;
+  border: 1px solid#fcfcfc;
 }
 
 .slider-dot-button:active {
@@ -891,8 +894,8 @@ body {
 }
 
 .slider-dot-button:current {
-  background: #FCFCFC;
-  border: 1px solid #FCFCFC;
+  background:#fcfcfc;
+  border: 1px solid#fcfcfc;
 }
 
 .messengers-list {
@@ -910,28 +913,28 @@ body {
   width: 24px;
   display: block;
   box-sizing: border-box;
-  outline: 2px solid #FFCBD8;
+  outline: 2px solid #ffcbd8;
   border: 0;
   border-radius: 24px;
-  background-color: #FEAFC3;
+  background-color: #feafc3;
   cursor: pointer;
   position: relative;
 }
 
 .messengers-link:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
-  background: #2D3440;
+  background: #2d3440;
   border-radius: 24px;
 }
 
 .messengers-link:hover {
-  background-color: #2D3440;
+  background-color: #2d3440;
   border-radius: 24px;
 }
 
 .messengers-link:active {
-  background-color: #2D3440;
+  background-color: #2d3440;
   border-radius: 24px;
   opacity: 0.5;
 }
@@ -941,13 +944,13 @@ body {
 }
 
 .gift-container h2 {
-  font-family: "Inter";
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
   margin-top: 80px;
@@ -965,9 +968,22 @@ body {
 
 .gift-item {
   display: flex;
-  background: #FF7799;
+  background: #ff7799;
   border-radius: 16px;
   margin-bottom: 80px;
+  width: 570px;
+}
+
+.gift-item:nth-child(1) {
+  background-image: url("images-gllacy/berry-gift.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.gift-item:nth-child(2) {
+  background-image: url("images-gllacy/marshmello-gift.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .info-gift {
@@ -978,12 +994,12 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 28px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 
@@ -992,28 +1008,28 @@ body {
   padding: 0;
   margin-bottom: 28px;
   width: 304px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .want-gift {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   display: inline-block;
-  color: #2D3440;
+  color: #2d3440;
   justify-content: center;
   align-items: center;
   padding: 12px 32px;
-  background: #FCFCFC;
-  outline: 4px solid #FFCBD8;
+  background:#fcfcfc;
+  outline: 4px solid #ffcbd8;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
@@ -1023,37 +1039,37 @@ body {
 
 .want-gift:focus {
   background: rgba(252, 252, 252, 0.5);
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .want-gift:hover {
   background: rgba(252, 252, 252, 0.4);
-  outline: 4px solid #FCFCFC;
+  outline: 4px solid #fcfcfc;
   border: none;
 }
 
 .want-gift:active {
-  background: #FCFCFC;
-  outline: 2px solid #2D3440;
+  background: #fcfcfc;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .want-gift:disabled {
-  background: #E7E7E7;
+  background: #e7e7e7;
   outline: 4px solid rgba(252, 252, 252, 0.4);
   border: none;
-  color: #B9B9B9;
+  color: #b9b9b9;
 }
 
-.popular-taste h1 {
-  font-family: "Inter;
+.popular-taste h2 {
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
   margin-bottom: 106px;
@@ -1073,7 +1089,7 @@ body {
 .taste-item {
   width: 270px;
   display: grid;
-  background-color: #FCFCFC;
+  background-color:#fcfcfc;
   border-radius: 8px;
 }
 
@@ -1084,26 +1100,26 @@ body {
 }
 
 .taste-item  h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
   margin-bottom: 8px;
 }
 
 .taste-item p {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  color: #565C66;
+  color: #565c66;
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
@@ -1119,20 +1135,20 @@ body {
 
 .price-busket span {
   display: flex;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #2D3440;
+  color: #2d3440;
   margin: auto 0;
 }
 
 .add-to-basket {
   width: 32px;
   height: 32px;
-  border: 2px solid #FF2F64;
-  background: #FF2F64;
+  border: 2px solid #ff2f64;
+  background: #ff2f64;
   border-radius: 26px;
   cursor: pointer;
   position: relative;
@@ -1140,33 +1156,33 @@ body {
 }
 
 .add-to-basket:focus {
-  border: 2px solid #2D3440;
-  background: #FF2F64;
+  border: 2px solid #2d3440;
+  background: #ff2f64;
 }
 
 .add-to-basket:hover {
-  background: #FCFCFC;
+  background:#fcfcfc;
 }
 
 .add-to-basket:hover .clr-icon-price {
-  fill: #2D3440;
+  fill: #2d3440;
 }
 
 .add-to-basket:active {
-  background: #FFCBD8;
+  background: #ffcbd8;
 }
 
 .add-to-basket:active .clr-icon-price {
-  fill: #2D3440;
+  fill: #2d3440;
 }
 
 .add-to-basket:disabled {
-  background: #B9B9B9;
-  border: 2px solid #B9B9B9;
+  background: #b9b9b9;
+  border: 2px solid #b9b9b9;
 }
 
 .add-to-basket:disabled .clr-icon-price {
-  fill: #565C66;
+  fill: #565c66;
 }
 
 .add-to-basket-icon {
@@ -1175,28 +1191,28 @@ body {
   right: 7.5px;
 }
 
-.vufle-advantages {
+.waffle-advantages {
   padding: 24px;
   border-radius: 16px;
   margin-bottom: 80px;
   margin-top: 80px;
-  background-image: url("images-gllacy/wafle.png");
+  background-image: url("images-gllacy/waffle.png");
   background-repeat: repeat;
 }
 
 .advantages {
-  background-color:  #FFFFFF;
+  background-color: #ffffff;
   border-radius: 16px;
 }
 
 .advantages h3 {
-  font-family: "Inter";
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
   padding-top: 56px;
@@ -1228,12 +1244,12 @@ body {
 .advantages-item p {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #565C66;
+  color: #565c66;
 }
 
 .article-and-mailing-list {
@@ -1245,33 +1261,32 @@ body {
 .article {
   box-sizing: border-box;
   width: 570px;
-  background-image: ;
   background-image: url("images-gllacy/article-ice-cream.jpg");
   background-size: cover;
   border-radius: 16px;
   padding: 32px 32px 70px 32px;
-  background-color: #FCFCFC;
+  background-color:#fcfcfc;
 }
 
 .article p {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #565C66;
-  margin-bottom: 12px;
+  color: #565c66;
+  margin-bottom: 16px;
 }
 
 .blog-link {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  color: #2D3440;
+  color: #2d3440;
   text-decoration: none;
 }
 
@@ -1289,7 +1304,7 @@ body {
   box-sizing: border-box;
   width: calc(100% - 12px);
   height: calc(100% - 12px);
-  background-color: #FCFCFC;
+  background-color:#fcfcfc;
   padding: 26px;
   border-radius: 16px;
 }
@@ -1297,12 +1312,12 @@ body {
 .mailing-list p {
   margin : 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #565C66;
+  color: #565c66;
   margin-bottom: 44px;
 }
 
@@ -1312,76 +1327,76 @@ body {
 }
 
 .filed {
-  background: #FFFFFF;
-  border: 1px solid #B9B9B9;
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
   border-radius: 4px;
   width: 332px;
   height: 48px;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #B9B9B9;
+  color: #b9b9b9;
   padding: 14px 16px 14px 16px;
 }
 
 .filed:not(:placeholder-shown) {
-  color: #2D3440;
-  border: 1px solid #B9B9B9;
+  color: #2d3440;
+  border: 1px solid #b9b9b9;
 }
 
 .button {
-  background: #FF2F64;
-  outline: 4px solid #FF7799;
+  background: #ff2f64;
+  outline: 4px solid #ff7799;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #FCFCFC;
+  color: #fcfcfc;
   cursor: pointer;
   padding: 10px 32px;
   box-sizing: border-box;
 }
 
 .button:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
-  background: #FF2F64;
+  background: #ff2f64;
 }
 
 .button:hover {
   background: rgba(252, 252, 252, 0.3);
-  outline: 4px solid #FF2F64;
+  outline: 4px solid #ff2f64;
   border: none;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .button:active {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
-  background: #FEAFC3;
+  background: #feafc3;
 }
 
 .button:disabled {
-  background: #B9B9B9;
+  background: #b9b9b9;
   outline: 4px solid rgba(185, 185, 185, 0.3);
   border: none;
-  color: #565C66;
+  color: #565c66;
 }
 
 .delivery {
   display: flex;
   border-radius: 16px;
   background-image: url("images-gllacy/delivery.jpg");
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   background-size: cover;
   margin-bottom: 80px;
 }
@@ -1392,12 +1407,12 @@ body {
 }
 
 .info-delivery h2 {
-  font-family: "Inter";
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
   margin-bottom: 24px;
@@ -1406,30 +1421,30 @@ body {
 .info-delivery p {
   margin:  0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #565C66;
+  color: #565c66;
   margin-bottom: 163px;
 }
 
 .appointment {
   margin: 64px 64px 64px 135px;
-  background: #FCFCFC;
+  background: #fcfcfc;
   box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
   padding: 40px;
 }
 
 .appointment p {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #565C66;
+  color: #565c66;
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
@@ -1457,12 +1472,12 @@ body {
 }
 
 .form-label {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   position: relative;
 }
 
@@ -1479,61 +1494,61 @@ body {
 }
 
 .app-input {
-  background: #FFFFFF;
-  border: 1px solid #B9B9B9;
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
   border-radius: 4px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #B9B9B9;
+  color: #b9b9b9;
   padding: 14px 16px;
   box-sizing: border-box;
   height:48px;
 }
 
 .app-input:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 4px;
 }
 
 .app-input:hover {
-  outline: 1px solid #2D3440;
+  outline: 1px solid #2d3440;
   border: 0;
   border-radius: 4px;
-  color: #2D3440;
+  color: #2d3440;
   box-sizing: border-box;
 }
 
 .date-input {
   width: 119px;
-  background: #FFFFFF;
-  border: 1px solid #B9B9B9;
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
   border-radius: 4px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #B9B9B9;
+  color: #b9b9b9;
   padding: 14px 16px;
   box-sizing: border-box;
   height:48px;
 }
 
 .date-input:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 4px;
 }
 
 .date-input:hover {
-  outline: 1px solid #2D3440;
+  outline: 1px solid #2d3440;
   border: 0;
   border-radius: 4px;
-  color: #2D3440;
+  color: #2d3440;
   box-sizing: border-box;
 }
 
@@ -1547,7 +1562,7 @@ body {
 
 .feedback {
   background-image: url("images-gllacy/contact.jpg");
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   border-radius: 16px;
   background-size: cover;
   padding: 64px 763px 64px 64px;
@@ -1555,60 +1570,62 @@ body {
 }
 
 .feedback-window {
-  background: #FCFCFC;
+  background:#fcfcfc;
   box-shadow: 0px 8px 16px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
-  padding: 40px;
+  padding: 40px 40px 44px 40px;
 }
 
 .feedback-window p {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #565C66;
+  color: #565c66;
   margin: 0;
   padding: 0;
   margin-bottom: 12px;
 }
 
 .feedback-window p:last-of-type {
-  margin-bottom: 42px;
+  margin-bottom: 32px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .feedback-window .address {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #2D3440;
+  color: #2d3440;
   margin-bottom: 24px;
 }
 
 .feedback-window b {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .feedback-link {
-  background: #FF2F64;
-  outline: 4px solid #FF7799;
+  background: #ff2f64;
+  outline: 4px solid #ff7799;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #FCFCFC;
+  color:#fcfcfc;
   cursor: pointer;
   padding: 10px 32px;
   box-sizing: border-box;
@@ -1616,13 +1633,41 @@ body {
   display: inline-block;
 }
 
+
+.feedback-link:focus {
+  outline: 2px solid #2d3440;
+  border: none;
+  background: #ff2f64;
+}
+
+.feedback-link:hover {
+  background: rgba(252, 252, 252, 0.3);
+  outline: 4px solid #ff2f64;
+  border: none;
+  color: #2d3440;
+}
+
+.feedback-link:active {
+  outline: 2px solid #2d3440;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  background: #feafc3;
+}
+
+.feedback-link:disabled {
+  background: #b9b9b9;
+  outline: 4px solid rgba(185, 185, 185, 0.3);
+  border: none;
+  color: #565c66;
+}
+
 .timetable {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #565C66;
+  color: #565c66;
 
 }
 
@@ -1648,62 +1693,70 @@ body {
 }
 
 .about-us-item {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   position: relative;
+  display: flex;
+  align-items: end;
 }
 
 .heart-icon {
   position: absolute;
   left: -24px;
-  top: 2px;
-}
-
-.for-other {
-  margin-right: 24px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  color: #2D3440;
+  top: 4px;
 }
 
 .about-us-link {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   text-decoration: none;
   height: 20px;
 }
 
+.for-other {
+  margin-right: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
 .about-us-item:nth-child(3) {
-  margin-right: 34px;
+  margin-right: 40px;
 }
 
 .html-academy {
   height: 57px;
 }
 
+.html-academy-link {
+  margin-top: 4px;
+  display: inline-block;
+}
+
 .html-academy P {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #2D3440;
+  color: #2d3440;
   margin: 0;
   padding: 0;
+  margin-top: 8px;
 }
 
 .html-academy-link-p {
-  color: #2D3440;
+  color: #2d3440;
 }
 
 /*Вторая страница*/
@@ -1719,12 +1772,12 @@ body {
 }
 
 .breadcrumbs-link {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
 }
 
 .breadcrumbs-link:not(:last-child) {
@@ -1746,15 +1799,15 @@ body {
   margin-right: 0;
 }
 
-.bread h1 {
+.bread h2 {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", monospace;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
-  color: #2D3440;
+  color: #2d3440;
   margin-bottom: 40px;
 }
 
@@ -1763,12 +1816,12 @@ body {
 }
 
 .catalog-filter-title {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   margin-bottom: 8px;
   margin-left: 16px;
 }
@@ -1794,16 +1847,16 @@ body {
 }
 
 .catalog-controll {
-  background: #FFCBD8;
+  background: #ffcbd8;
   border-radius: 20px;
   border: 0;
   padding: 8px 36px 8px 16px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   text-decoration: none;
   display: block;
   position: relative;
@@ -1811,13 +1864,13 @@ body {
 }
 
 .catalog-controll:focus {
-  outline: 2px solid #FCFCFC;
+  outline: 2px solid#fcfcfc;
   border: 0;
   border-radius: 26px;
 }
 
 .catalog-controll:hover {
-  background: #FCFCFC;
+  background:#fcfcfc;
   opacity: 0.5;
 }
 
@@ -1828,7 +1881,7 @@ body {
 .range {
   box-sizing: border-box;
   height: 36px;
-  background: #FFCBD8;
+  background: #ffcbd8;
   border-radius: 20px;
   padding: 1px 16px 17px 16px;
 }
@@ -1837,7 +1890,7 @@ body {
   position: relative;
   height: 2px;
   margin-bottom: 16px;
-  background-color: #B9B9B9;
+  background-color: #b9b9b9;
   border-radius: 2px;
   margin-top: 16px;
 }
@@ -1845,7 +1898,7 @@ body {
 .range-bar {
   position: absolute;
   height: 2px;
-  background-color: #2D3440;
+  background-color: #2d3440;
   opacity: 1;
 }
 
@@ -1853,8 +1906,8 @@ body {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: #FCFCFC;
-  border: 6px solid #2D3440;
+  background:#fcfcfc;
+  border: 6px solid #2d3440;
   border-radius: 50%;
   padding: 2px ;
   cursor: pointer;
@@ -1866,19 +1919,19 @@ body {
 }
 
 .toggle-min:focus {
-  background: #2D3440;
-  border: 6px solid #FCFCFC;
-  outline: 2px solid #2D3440;
+  background: #2d3440;
+  border: 6px solid #fcfcfc;
+  outline: 2px solid #2d3440;
 }
 
 .toggle-min:hover {
-  background: #2D3440;
-  border: 6px solid #FCFCFC;
+  background: #2d3440;
+  border: 6px solid #fcfcfc;
 }
 
 .toggle-min:active {
-  background: #2D3440;
-  border: 6px solid #2D3440;
+  background: #2d3440;
+  border: 6px solid #2d3440;
   outline: 0;
 }
 
@@ -1888,19 +1941,19 @@ body {
 }
 
 .toggle-max:focus {
-  background: #2D3440;
-  border: 6px solid #FCFCFC;
-  outline: 2px solid #2D3440;
+  background: #2d3440;
+  border: 6px solid #fcfcfc;
+  outline: 2px solid #2d3440;
 }
 
 .toggle-max:hover {
-  background: #2D3440;
-  border: 6px solid #FCFCFC;
+  background: #2d3440;
+  border: 6px solid #fcfcfc;
 }
 
 .toggle-min:active {
-  background: #2D3440;
-  border: 6px solid #2D3440;
+  background: #2d3440;
+  border: 6px solid #2d3440;
   outline: 0;
 }
 
@@ -1909,7 +1962,7 @@ body {
   list-style-type: none;
   display: flex;
   margin: 0;
-  background: #FFCBD8;
+  background: #ffcbd8;
   border-radius: 20px;
   padding: 8px 24px;
 }
@@ -1933,7 +1986,7 @@ body {
   left: 3px;
   width: 6px;
   height: 6px;
-  background-color: #2D3440;
+  background-color: #2d3440;
   border-radius: 50%;
   content: "";
 }
@@ -1952,12 +2005,16 @@ body {
   left: 0;
   width: 16px;
   height: 16px;
-  border: 2px solid #2D3440;
+  border: 2px solid #2d3440;
   border-radius: 4px;
 }
 
+.control-mark:focus {
+  border: 2px solid #69a9ff;
+}
+
 .control-mark:hover {
-  border: 2px solid #FCFCFC;
+  border: 2px solid #fcfcfc;
 }
 
 .control-mark:disabled {
@@ -1965,7 +2022,7 @@ body {
 }
 
 .control-mark:hover .control-mark::before {
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
 }
 
 .control-mark-checbox-svg {
@@ -1977,8 +2034,12 @@ body {
   height: 16px;
 }
 
+.control-mark-checbox-svg:focus .checked {
+  fill: #69a9ff;
+}
+
 .control-mark-checbox-svg:hover .checked {
-  fill: #FCFCFC;
+  fill: #fcfcfc;
 }
 
 .control-mark-checbox-svg:default .checked {
@@ -1986,7 +2047,7 @@ body {
 }
 
 .control-mark-checbox-svg:hover .unchecked {
-  fill: #FCFCFC;
+  fill: #fcfcfc;
 }
 
 .control-mark-checbox-svg:default .unchecked {
@@ -2014,27 +2075,27 @@ body {
 }
 
 .control-label {
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   display: flex;
   align-items: center;
 }
 
 .button-show {
-  background: #FFCBD8;
-  outline: 2px solid #FCFCFC;
+  background: #ffcbd8;
+  outline: 2px solid #fcfcfc;
   border: none;
   border-radius: 20px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   display: flex;
   align-items: center;
   height: 36px;
@@ -2047,12 +2108,12 @@ body {
 
 .button-show:focus {
   background: rgba(252, 252, 252, 0.3);
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .button-show:hover {
-  background: #FCFCFC;
+  background:#fcfcfc;
   outline: 2px solid rgba(252, 252, 252, 0.3);
   border: none;
 }
@@ -2092,36 +2153,36 @@ body {
 }
 
 .button-load-more {
-  background: #FCFCFC;
-  outline: 4px solid #FFCBD8;
+  background:#fcfcfc;
+  outline: 4px solid #ffcbd8;
   border: none;
   box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
   border-radius: 26px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #2D3440;
+  color: #2d3440;
   padding: 12px 32px;
   cursor: pointer;
 }
 
 .button-load-more:hover {
   background: rgba(252, 252, 252, 0.4);
-  outline: 4px solid #FCFCFC;
+  outline: 4px solid #fcfcfc;
   border: none;
 }
 
 .button-load-more:active {
-  background: #FCFCFC;
-  outline: 2px solid #2D3440;
+  background: #fcfcfc;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
 .button-load-more:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: none;
 }
 
@@ -2167,12 +2228,12 @@ body {
 
 .pagination-link {
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   position: relative;
   width: 24px;
   height: 24px;
@@ -2183,13 +2244,13 @@ body {
 }
 
 .active-pag-ct {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 50px;
 }
 
 .pagination-link:focus {
   background: rgba(252, 252, 252, 0.3);
-  outline: 1px solid #2D3440;
+  outline: 1px solid #2d3440;
   border: 0;
   border-radius: 50px;
 }
@@ -2201,7 +2262,7 @@ body {
 
 .pagination-link:active {
   background: rgba(252, 252, 252, 0.5);
-  outline: 1px solid #FCFCFC;
+  outline: 1px solid #fcfcfc;
   border: 0;
   border-radius: 50px;
 }
@@ -2221,7 +2282,7 @@ body {
   position: relative;
   margin: auto;
   padding: 64px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
   border-radius: 8px;
 }
@@ -2230,7 +2291,7 @@ body {
   width: 20px;
   height: 20px;
   border: 0;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   padding: 0;
   position: absolute;
   top: 32px;
@@ -2269,38 +2330,38 @@ body {
 }
 
 .filed-big {
-  background: #FFFFFF;
-  border: 1px solid #B9B9B9;
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
   border-radius: 4px;
   width: 442px;
   height: 150px;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #2D3440;
+  color: #2d3440;
   padding: 14px 16px 14px 16px;
   position: relative;
   resize: none;
 }
 
 .filed-big::placeholder {
-  color: #B9B9B9
+  color: #b9b9b9;
 }
 
 .filed-big:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 4px;
 }
 
 .filed-big:hover {
-  outline: 1px solid #2D3440;
+  outline: 1px solid #2d3440;
   border: 0;
   border-radius: 4px;
-  color: #2D3440;
+  color: #2d3440;
   box-sizing: border-box;
 }
 
@@ -2313,15 +2374,15 @@ body {
 }
 
 .filed:focus {
-  outline: 2px solid #2D3440;
+  outline: 2px solid #2d3440;
   border: 0;
   border-radius: 4px;
 }
 
 .filed:hover {
-  outline: 1px solid #2D3440;
+  outline: 1px solid #2d3440;
   border: 0;
   border-radius: 4px;
-  color: #2D3440;
+  color: #2d3440;
   box-sizing: border-box;
 }
